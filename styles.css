@@ -809,21 +809,23 @@ footer div i
     {
         display: block;
     }
-    .form div
+    .form #form-div
     {
-        height: 55px;
+        height: 50px;
         width: 100%;
+        margin: auto;
+        margin-bottom: 30px;
     }
     #email-label
     {
         bottom: 17px;
-        left: 29px;
+        left: 20px;
     }
-    .form button
+    .form #getStarted1
     {
         font-size: 1rem;
         width: 130px;
-        margin-top: 30px;
+        padding: 10px;
     }
     #background-image
     {
@@ -841,6 +843,8 @@ footer div i
     {
         height: 55px;
         width: 100%;
+        margin: auto;
+        margin-bottom: 30px;
     }
     .Questions #email-login2
     {
@@ -849,30 +853,22 @@ footer div i
     .Questions #email-label2
     {
         bottom: 17px;
-        left: 35px;
+        left: 20px;
     }
     .Questions #email-error2
     {
         left: 12px;
     }
-    .Questions .form button
+    .Questions .form #getStarted2
     {
         font-size: 1rem;
         width: 130px;
         margin-top: 30px;
+        padding: 10px;
     }
     .footer-container
     {
         width: 90%;
-    }
-}
-
-@media (max-width: 850px)
-{
-    .Questions #email-label2
-    {
-        bottom: 17px;
-        left: 33px;
     }
 }
 
@@ -885,6 +881,10 @@ footer div i
     .footer-content li
     {
         width: 33%;
+    }
+    .Questions form h3
+    {
+        font-size: 1rem;
     }
 }
 
@@ -910,11 +910,6 @@ footer div i
     {
         font-size: 1.8rem;
         line-height: 40px;
-    }
-    #email-label
-    {
-        bottom: 17px;
-        left: 28px;
     }
     h2
     {
@@ -948,20 +943,6 @@ footer div i
     {
         width: 40px;
     }
-    .Questions #email-label2
-    {
-        bottom: 17px;
-        left: 31px;
-    }
-}
-
-@media (max-width: 650px)
-{
-    .Questions #email-label2
-    {
-        bottom: 17px;
-        left: 30px;
-    }
 }
 
 @media (max-width: 600px)
@@ -978,13 +959,15 @@ footer div i
 
 @media (max-width: 550px)
 {
-    .Questions #email-label2
+    .form #email-label
     {
-        bottom: 17px;
-        left: 29px;
+        left: 20px;
+    }
+    .Questions .form #email-label2
+    {
+        left: 20px;
     }
 }
-
 @media (max-width: 540px)
 {
     .contents
@@ -1007,12 +990,20 @@ footer div i
     }
 }
 
-@media (max-width: 450px)
+@media (max-width: 470px)
 {
+    .form #form-div
+    {
+        width: 100%;
+    }
     #email-label
     {
         bottom: 17px;
         left: 27px;
+    }
+    .Questions .form #form-div2
+    {
+        width: 95%;
     }
     .Questions #email-label2
     {
@@ -1124,13 +1115,13 @@ footer div i
 
 @media (max-width: 290px)
 {
-    .form button
+    .form a
     {
         width: 160px;
         font-size: 1rem;
         line-height: 30px;
     }
-    .Questions .form button
+    .Questions .form a
     {
         width: 160px;
         font-size: 1rem;
