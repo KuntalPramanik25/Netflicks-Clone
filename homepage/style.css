@@ -316,7 +316,6 @@ ul li:hover
     top: 90vh;
     bottom: 0;
     overflow: hidden;
-    /* border-radius: 20px; */
     padding: 0 1%;
 }
 
@@ -424,7 +423,6 @@ ul li:hover
     height: 180px;
     display: flex;
     align-items: center;
-    /*  */
 }
 
 .trendingNow-carousel section::-webkit-scrollbar
@@ -475,7 +473,8 @@ ul li:hover
     margin: 0 5px;
     cursor: pointer;
     color: #555;
-    width: 20px;
+    background: rgba(255, 255, 255, 0.6);
+    width: 30px;
     height: 70px;
     line-height: 60px;
     text-align: center;
@@ -524,7 +523,6 @@ section span:hover{
     height: 180px;
     display: flex;
     align-items: center;
-    /* overflow-x: auto; */
 }
 
 .hollywoodMovies-carousel section::-webkit-scrollbar
@@ -574,7 +572,8 @@ section span:hover{
     margin: 0 5px;
     cursor: pointer;
     color: #555;
-    width: 20px;
+    background: rgba(255, 255, 255, 0.6);
+    width: 30px;
     height: 70px;
     line-height: 60px;
     text-align: center;
@@ -624,7 +623,6 @@ section .slide2 span:hover{
     height: 200px;
     display: flex;
     align-items: center;
-    /* overflow-x: auto; */
 }
 
 .top10Movies-carousel section::-webkit-scrollbar
@@ -662,7 +660,8 @@ section .slide2 span:hover{
     margin: 0 5px;
     cursor: pointer;
     color: #555;
-    width: 20px;
+    background: rgba(255, 255, 255, 0.6);
+    width: 30px;
     height: 70px;
     line-height: 60px;
     text-align: center;
@@ -713,7 +712,6 @@ section .slide3 span:hover{
     height: 180px;
     display: flex;
     align-items: center;
-    /* overflow-x: auto; */
 }
 
 .continueWatchingForKuntal-carousel section::-webkit-scrollbar
@@ -763,7 +761,8 @@ section .slide3 span:hover{
     margin: 0 5px;
     cursor: pointer;
     color: #555;
-    width: 20px;
+    background: rgba(255, 255, 255, 0.6);
+    width: 30px;
     height: 70px;
     line-height: 60px;
     text-align: center;
@@ -813,7 +812,6 @@ section .slide4 span:hover{
     height: 180px;
     display: flex;
     align-items: center;
-    /* overflow-x: auto; */
 }
 
 .bollywoodMovies-carousel section::-webkit-scrollbar
@@ -863,7 +861,8 @@ section .slide4 span:hover{
     margin: 0 5px;
     cursor: pointer;
     color: #555;
-    width: 20px;
+    background: rgba(255, 255, 255, 0.6);
+    width: 30px;
     height: 70px;
     line-height: 60px;
     text-align: center;
@@ -913,7 +912,6 @@ section .slide5 span:hover{
     height: 180px;
     display: flex;
     align-items: center;
-    /* overflow-x: auto; */
 }
 
 .dubbedInTamil-carousel section::-webkit-scrollbar
@@ -963,7 +961,8 @@ section .slide5 span:hover{
     margin: 0 5px;
     cursor: pointer;
     color: #555;
-    width: 20px;
+    background: rgba(255, 255, 255, 0.6);
+    width: 30px;
     height: 70px;
     line-height: 60px;
     text-align: center;
@@ -1012,7 +1011,6 @@ section .slide6 span:hover{
     height: 180px;
     display: flex;
     align-items: center;
-    /* overflow-x: auto; */
 }
 
 .becauseYouWatchedJersey-carousel section::-webkit-scrollbar
@@ -1062,7 +1060,8 @@ section .slide6 span:hover{
     margin: 0 5px;
     cursor: pointer;
     color: #555;
-    width: 20px;
+    background: rgba(255, 255, 255, 0.6);
+    width: 30px;
     height: 70px;
     line-height: 60px;
     text-align: center;
@@ -1111,7 +1110,6 @@ section .slide7 span:hover{
     height: 180px;
     display: flex;
     align-items: center;
-    /* overflow-x: auto; */
 }
 
 .onlyOnNetflicks-carousel section::-webkit-scrollbar
@@ -1161,7 +1159,8 @@ section .slide7 span:hover{
     margin: 0 5px;
     cursor: pointer;
     color: #555;
-    width: 20px;
+    background: rgba(255, 255, 255, 0.6);
+    width: 30px;
     height: 70px;
     line-height: 60px;
     text-align: center;
@@ -1540,7 +1539,7 @@ footer p, footer p a
     }
     .trendingNow-carousel h3
     {
-        margin-top: 75%;
+        margin-top: 90%;
     }
 }
 
