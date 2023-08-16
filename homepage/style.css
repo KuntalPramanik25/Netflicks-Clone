@@ -1525,6 +1525,14 @@ footer p, footer p a
     }
 }
 
+@media only screen and (max-width: 420px)
+{
+    .trendingNow-carousel h3
+    {
+        margin-top: 130%;
+    }
+}
+
 @media only screen and (max-width: 410px)
 {
     .logo img
