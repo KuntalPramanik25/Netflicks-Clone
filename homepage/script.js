@@ -13,14 +13,14 @@ setTimeout(() =>{
 function alertFunction()
 {
     let alertMessage = `                       
-                        Hey! Welcome to Netflicks : A Netflix Clone 
+Hey! Welcome to Netflicks : A Netflix Clone 
 
-                        This feature is not available.
+This feature is not available.
                         
-                        Observable Functionalities :
-                        1. Responsiveness
-                        2. Hidden Menu Bar in a 1000px screen
-                        3. Working Left and Right Sliders.`
+Observable Functionalities :
+1. Responsiveness
+2. Hidden Menu Bar in a 1000px screen
+3. Working Left and Right Sliders.`
     alert(alertMessage)
 }
 
