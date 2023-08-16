@@ -472,9 +472,9 @@ ul li:hover
     font-size: 50px;
     margin: 0 5px;
     cursor: pointer;
-    color: #555;
-    background: rgba(255, 255, 255, 0.6);
-    width: 30px;
+    color: black;
+    background: rgba(255, 255, 255, 0.3);
+    width: 20px;
     height: 70px;
     line-height: 60px;
     text-align: center;
@@ -495,7 +495,7 @@ ul li:hover
 }
 
 section span:hover{
-    background: #222;
+    background: #333;
     color: white;
 }
 
@@ -571,9 +571,9 @@ section span:hover{
     font-size: 50px;
     margin: 0 5px;
     cursor: pointer;
-    color: #555;
-    background: rgba(255, 255, 255, 0.6);
-    width: 30px;
+    color: black;
+    background: rgba(255, 255, 255, 0.3);
+    width: 20px;
     height: 70px;
     line-height: 60px;
     text-align: center;
@@ -594,7 +594,7 @@ section span:hover{
 }
 
 section .slide2 span:hover{
-    background: #222;
+    background: #333;
     color: white;
 }
 
@@ -659,9 +659,9 @@ section .slide2 span:hover{
     font-size: 50px;
     margin: 0 5px;
     cursor: pointer;
-    color: #555;
-    background: rgba(255, 255, 255, 0.6);
-    width: 30px;
+    color: black;
+    background: rgba(255, 255, 255, 0.3);
+    width: 20px;
     height: 70px;
     line-height: 60px;
     text-align: center;
@@ -682,7 +682,7 @@ section .slide2 span:hover{
 }
 
 section .slide3 span:hover{
-    background: #222;
+    background: #333;
     color: white;
 }
 
@@ -760,9 +760,9 @@ section .slide3 span:hover{
     font-size: 50px;
     margin: 0 5px;
     cursor: pointer;
-    color: #555;
-    background: rgba(255, 255, 255, 0.6);
-    width: 30px;
+    color: black;
+    background: rgba(255, 255, 255, 0.3);
+    width: 20px;
     height: 70px;
     line-height: 60px;
     text-align: center;
@@ -783,7 +783,7 @@ section .slide3 span:hover{
 }
 
 section .slide4 span:hover{
-    background: #222;
+    background: #333;
     color: white;
 }
 
@@ -860,9 +860,9 @@ section .slide4 span:hover{
     font-size: 50px;
     margin: 0 5px;
     cursor: pointer;
-    color: #555;
-    background: rgba(255, 255, 255, 0.6);
-    width: 30px;
+    color: black;
+    background: rgba(255, 255, 255, 0.3);
+    width: 20px;
     height: 70px;
     line-height: 60px;
     text-align: center;
@@ -883,7 +883,7 @@ section .slide4 span:hover{
 }
 
 section .slide5 span:hover{
-    background: #222;
+    background: #333;
     color: white;
 }
 
@@ -960,9 +960,9 @@ section .slide5 span:hover{
     font-size: 50px;
     margin: 0 5px;
     cursor: pointer;
-    color: #555;
-    background: rgba(255, 255, 255, 0.6);
-    width: 30px;
+    color: black;
+    background: rgba(255, 255, 255, 0.3);
+    width: 20px;
     height: 70px;
     line-height: 60px;
     text-align: center;
@@ -983,7 +983,7 @@ section .slide5 span:hover{
 }
 
 section .slide6 span:hover{
-    background: #222;
+    background: #333;
     color: white;
 }
 
@@ -1059,9 +1059,9 @@ section .slide6 span:hover{
     font-size: 50px;
     margin: 0 5px;
     cursor: pointer;
-    color: #555;
-    background: rgba(255, 255, 255, 0.6);
-    width: 30px;
+    color: black;
+    background: rgba(255, 255, 255, 0.3);
+    width: 20px;
     height: 70px;
     line-height: 60px;
     text-align: center;
@@ -1082,7 +1082,7 @@ section .slide6 span:hover{
 }
 
 section .slide7 span:hover{
-    background: #222;
+    background: #333;
     color: white;
 }
 
@@ -1158,9 +1158,9 @@ section .slide7 span:hover{
     font-size: 50px;
     margin: 0 5px;
     cursor: pointer;
-    color: #555;
-    background: rgba(255, 255, 255, 0.6);
-    width: 30px;
+    color: black;
+    background: rgba(255, 255, 255, 0.3);
+    width: 20px;
     height: 70px;
     line-height: 60px;
     text-align: center;
@@ -1181,7 +1181,7 @@ section .slide7 span:hover{
 }
 
 section .slide8 span:hover{
-    background: #222;
+    background: #333;
     color: white;
 }
 
