@@ -1527,9 +1527,13 @@ footer p, footer p a
 
 @media only screen and (max-width: 420px)
 {
+    .banner img
+    {
+        margin-bottom: 20px;
+    }
     .trendingNow-carousel h3
     {
-        margin-top: 130%;
+        margin-top: 110%;
     }
 }
 
