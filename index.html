@@ -8,6 +8,7 @@
     <link rel="icon" href="images/icon.png">
     <title>Netflicks</title>
     <link rel="stylesheet" type="text/css" media="screen" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"/>
 </head>
 
 <body>
@@ -16,12 +17,15 @@
             <div class="navbar">
                 <img src="images/logo.png" class="logo">
 
+                <div class="selection">
+                    <i class="fa-solid fa-globe"></i>
                     <select name="language" id="language"> 
-                        <option>🌐 English</option>
-                        <option>🌐 हिंदी</option>
+                        <option>English</option>
+                        <option>हिंदी</option>
                     </select>
+                </div>
     
-                    <button class="signIn">Sign In</button>
+                <button class="signIn" onclick="alertFunction()">Sign In</button>
                 
             </div>
             <div class="contents">
@@ -31,12 +35,12 @@
                 <form>
                     <h3>Ready to watch? Enter your email to create or restart your membership.</h3>
                     <div class="form">
-                        <div>
+                        <div id="form-div">
+                            <input type="text" id="email-login" placeholder=" " required onkeyup="validateEmail()">
                             <label id="email-label">Email Address</label>
-                            <input type="text" id="email-login" required onclick="changeLabelPosition()" onkeyup="validateEmail()">
                             <span id="email-error"></span>
                         </div>
-                        <button class="getStarted" onclick="validate()"><strong>Get Started</strong> ❯</button>
+                        <a id="getStarted1" onclick="validateEmail()" style="text-decoration: none;"> <strong>Get Started</strong> ❯</a>
                     </div>
                 </form>
             </div>
@@ -172,13 +176,15 @@
             <form>
                 <h3>Ready to watch? Enter your email to create or restart your membership.</h3>
                 <div class="form">
-                    <div>
+                    <div id="form-div2">
+                        <input type="text" id="email-login2" placeholder=" " required onkeyup="validateEmail2()">
                         <label id="email-label2">Email Address</label>
-                        <input type="text" id="email-login2" required onclick="changeLabelPosition2()" onkeyup="validateEmail2()">
                         <span id="email-error2"></span>
                     </div>
-                    <button class="getStarted" onclick="validate2()"><strong>Get Started</strong> ❯</button>
+                    <a id="getStarted2" onclick="validateEmail2()" style="text-decoration: none;"> <strong>Get Started</strong> ❯</a>
                 </div>
+
+                
             </form>
         </div>
     </div>
@@ -186,8 +192,8 @@
     <footer>
         <div class="footer-container">
             <div class="footer-content">
-                <p class="call">Questions? Call <a href="#" class="contact"> 000-800-919-1694</a></p>
-                <ul>
+                <p class="call">Questions? Call <a href="#" class="contact" onclick="alertFunction()"> 000-800-919-1694</a></p>
+                <ul onclick="alertFunction()">
                     <li><a href="#">FAQ</a></li>
                     <li><a href="#">Help Centre</a></li>
                     <li><a href="#">Account</a></li>
@@ -206,10 +212,13 @@
                 </ul>
             </div>
             <br>
-            <select name="language" id="language">
-                <option>🌐 English</option>
-                <option>🌐 हिंदी</option>
-            </select>
+            <div class="selection">
+                <i class="fa-solid fa-globe"></i>
+                <select name="language" id="language"> 
+                    <option>English</option>
+                    <option>हिंदी</option>
+                </select>
+            </div>
 
             <p>Netflicks India</p>
             <p id="copyright">A Netflix Clone Copyright © 2023 <a href="https://kuntalpramanik25.github.io/My-Portfolio/">Kuntal Pramanik</a>. All Rights Reserved.</p>
