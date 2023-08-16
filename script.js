@@ -1,14 +1,14 @@
 function alertFunction()
 {
     let alertMessage = `                       
-                Hey! Welcome to Netflicks : A Netflix Clone 
+Hey! Welcome to Netflicks : A Netflix Clone 
 
-                This feature is not available. Try out the other features :
+This feature is not available. Try out the other features :
 
-                1. Fully Responsive.
-                2. Checking for EMail Adrress validity.
-                3. Functional FAQ Section
-                4. Get Started button leads to Netflicks Home Page`
+1. Fully Responsive.
+2. Checking for EMail Adrress validity.
+3. Functional FAQ Section
+4. Get Started button leads to Netflicks Home Page`
     alert(alertMessage)
 }
 
